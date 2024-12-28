@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+.header{
+    display: flex;  
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 20px;
+    
+}
+.header a{
+    color: #F9FAF8;
+    text-decoration:none ;
+    font-size: 24px;
+ 
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top:20px ;
+    gap: 40px;
+    
+}
+.logo{
+    margin:  20px;
+    margin-left: 100px;
+    font-size: 28px;
+    color: #F9FAF8;
+}
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    align-items: flex-start;
+    
+}
+.text{
+    
+    padding: 20px;
+}
+.address{
+    font-size: 52px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.p{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.text button{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size:24px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
+}
+.place-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.place-holder img {
+    width : 500px ;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.info{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+.container-3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.images ,.qoute{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+}
+.images img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #3882F6 ;
+}
+.tournments{
+    margin-left: 50px;
+}
+.camps{
+    margin-left: 30px;
+}
+.community{
+    margin-left: 20px;
+}
+.quotation{
+    background-color: #E5E7EB;
+    padding: 50PX;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-style: light italic;
+    font-weight: 900;
+}
+.say{
+    text-align: end;
+    margin-top: 10px;
+}
+.action{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #3882F6;
+    padding: 32px;
+    gap: 32px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    margin-bottom: 140px;
+    
+}
+.action .one{
+    font-size: 30px;
+    font-weight: 900;
+}
+.action .two{
+    font-size: 24px;
+    font-weight: 700;
+}
+.sign{
+    align-self: flex-end;
+    margin-left: 20px;
+
+}
+.sign button {
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+}
+
+
+
+
+
